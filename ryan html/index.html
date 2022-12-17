@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>
+        University of Kenya Website
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+</head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/logos/devcamp.png"></a>
+                    <div class="nav-links" id="navlinks"> 
+                        <i class="fa fa-times"onclick="hideMenu()" ></i>
+                        <ul>
+                            <li><a href="">Home</a></li>  
+                            <li><a href="">About</a></li>
+                            <li><a href="">Course</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </div>
+                    <i class="fa fa-bars" onlick="showmenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>World biggest University</h1>
+                <p>This is the best university in Kenya,Achana na hizo zingine</p>
+                <a href=""class="hero-btn">Visit us to know more</a>
+            </div>
+
+        </section>
+        <!-----Course-->
+        <section class="course">
+            <h1>Courses we offer</h1>
+            <p>We offer various courses</p>
+            <div class="row">
+                <div class="course-col">
+                  <h3>PHD</h3>
+                  <p>this is the hardest level of your education in this field</p>
+                </div>
+                <div class="course-col">
+                    <h3>Degree</h3>
+                    <p>this is the hardest level of your education in this field</p>
+                  </div>
+                  <div class="course-col">
+                    <h3>Diploma</h3>
+                    <p>this is the hardest level of your education in this field</p>
+                  </div>
+            </div>  
+        </section>
+<!------------campus-->
+        <section class="campus">
+            <h1>Our Global Campus</h1>
+            <p>Our campuses are the greatest in east and central Africa</p>
+
+            <div class="row">
+                <div class="campus-col">
+                    <img src="images/Nairobi (1).jpg">
+                <div class="layer">
+                    <h3>Nairobi</h3>
+                </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/Nairobi Skyline at Night.jpg">
+                <div class="layer">
+                    <h3>Kakamega</h3>
+                </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/Nairobi Skyline.jpg">
+                <div class="layer">
+                    <h3>Mombasa</h3>
+                </div>
+                </div>
+            </div>
+            
+
+
+        </section>
+        <!-------facilities-->
+        <section class="facilities">
+            <h1>Our facilities</h1>
+            <p>We have proper facilities in our campuses</p>
+            
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+        <!---------JAVASCRIPT FOR TOGGLE MENU------->
+        <script>
+            var navlinks=document.getElementById("navlinks");
+            function showMenu(){
+                navlinks.style.right="0";
+
+            }
+            function hidemenu(){
+                navlinks.style.right="-200px";
+
+            }
+        </script>
+
+    </body>
+
+</html>
